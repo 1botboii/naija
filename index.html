@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8fe8b7673b.js" crossorigin="anonymous"></script>
+    <script src="https://www.youtube.com/player_api"></script>
+    <link rel="shortcut icon" type="image/png" href="favicon-16x16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Climate+Crisis&family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk&family=Lobster&family=Montserrat:wght@500&family=Poppins:ital,wght@1,600&family=Rampart+One&family=Roboto:ital,wght@0,100;0,300;0,400;1,500&family=Sen&display=swap" rel="stylesheet">
+    <title>NaijaFlix: Discover your Favorites</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+        <a href="">NaijaFlix</a>  
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          
+          <li><a href="#" class="dropdown">Movies</a>
+            <ul class="dropdown-toggle">
+              <li><a href="action1.html">Action</a></li>
+              <li><a href="drama1.html">Drama</a></li>
+              <li><a href="horror1.html">Horror</a></li>
+            </ul>
+          </li>
+          <li><a href="#">TV Shows</a>
+            <ul>
+              <li><a href="action1.html">Action</a></li>
+              <li><a href="drama1.tml">Drama</a></li>
+              <li><a href="horror1.html">Horror</a></li>
+            </ul>
+          </li>
+          <li><a href="search.html"><i class="fa-solid fa-magnifying-glass"></i> Search</a></li>
+          
+        </ul>
+        <button class="open-btn"><i class="fa-solid fa-bars"></i></button>
+      </nav>
+      <div id="search-results"></div>
+
+      
+
+      <div class="sidebar">
+        <div class="sidebar-header">
+          <h3>Menu</h3>
+          <button class="close-btn">&times;</button>
+        </div>
+        <ul class="sidebar-nav">
+          <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+          <li><a href="#"><i class="fa-solid fa-video"></i> Movies</a></li>
+          <li><a href="#"><i class="fa-solid fa-film"></i> TV Shows</a></li>
+          <li><a href="#"><i class="fa-solid fa-clapperboard"></i> Genres</a></li>
+          <li><a href="search.html"><i class="fa-solid fa-magnifying-glass"></i> Search</a></li>
+        </ul>
+        <div class="sidebar-footer">
+          <p>&copy; 2023 Naijaflix. All rights reserved.</p>
+        </div>
+      </div>
+
+         <!-- Main Content -->
+    <main>
+      <section class="hero">
+        <h1>Welcome to NaijaFlix</h1>
+        <p>Discover your next favorite movie or TV show.</p>
+        <a href="#" class="btn">Explore Now</a>
+      </section>
+
+      <section class="featured">
+        <h2>Featured Movies</h2>
+        <div class="movie-list">
+          <!-- Movie Cards -->
+          <div class="movie-card">
+            <img src="img/movie1.jpeg" alt="Movie 1" data-video-id="your-video-id-here">
+            <h3>John Wick: Chapter 4</h3>
+            <p>2023 ‧ Action/Neo-noir ‧ 2h 49m
+            </p>
+            <a href="#" class="btn" download>Download <i class="fa-solid fa-download"></i></a>
+          </div>
+
+          <div class="movie-card">
+            <img src="img/movie2.jpg" alt="Movie 2" data-video-id="your-video-id-here">
+            <h3>Ant-Man and the Wasp: Quantumania</h3>
+            <p>2023 ‧ Adventure/Action ‧ 2h 5m
+            </p>
+            <a href="#" class="btn" download>Download <i class="fa-solid fa-download"></i></a>
+          </div>
+
+          <div class="movie-card">
+            <img src="img/movie3.jpeg"  data-video-id="your-video-id-here">
+            <h3>Aquaman and the Lost Kingdom</h3>
+            <p>2023 ‧ Action/Fantasy
+            </p>
+            <a href="#" class="btn" download>Download <i class="fa-solid fa-download"></i></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="popular">
+        <h2 class="h2"> <a href="action1.html">Action Movies</a> </h2>
+        <div class="tv-show-list">
+          <!-- TV Show Cards -->
+          <div class="tv-show-card">
+            <img src="img/movie4.jpg" alt="TV Show 1" data-video-id="3oIxZLUKYtI">
+            <h3>Extraction 2</h3>
+            <p>2023 ‧ Action/Thriller
+            </p>
+           <p>Rating: 3/5</p> 
+           <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <a href="#" class="btns" download>Download <i class="fa-solid fa-download"></i></a>
+          </div>
+
+          <div class="tv-show-card">
+            <img src="img/movie5.jpeg" alt="TV Show 2">
+            <h3>Transformers: Rise of the Beasts
+              
+              </h3>
+            <p>2023 ‧ Sci-fi/Action</p>
+            <p>Rating: 3/5</p> 
+            <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+            <a href="#" class="btns" download>Download <i class="fa-solid fa-download"></i></a>
+          </div>
+
+          <div class="tv-show-card">
+            <img src="img/movie6.jpeg" alt="TV Show 3">
+            <h3>Guardians of the Galaxy Vol. 3</h3>
+            <p>2023 ‧ Adventure/Action
+              </p>
+            <p>Rating: 3/5</p> 
+            <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+            <a href="#" class="btns" download>Download <i class="fa-solid fa-download"></i></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="popular">
+        <h2 class="h2"> <a href="drama1.html">Drama</a> </h2>
+        <div class="tv-show-list">
+          <!-- TV Show Cards -->
+          <div class="tv-show-card">
+            <img src="img/movie7.png" alt="TV Show 1">
+            <h3>Creed III</h3>
+            <p>2023 ‧ Drama/Sport ‧ 1h 57m
+            </p>
+            <p>Rating: 3/5</p> 
+            <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+            <a href="#" class="btns" download>Download <i class="fa-solid fa-download"></i></a>
+          </div>
+
+          <div class="tv-show-card">
+            <img src="img/movie8.jpeg" alt="TV Show 2">
+            <h3>Dog Gone</h3>
+            <p>2023 ‧ Family film ‧ 1h 35m</p>
+            <p>No Rating</p> 
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+            <a href="#" class="btns" download>Download <i class="fa-solid fa-download"></i></a>
+          </div>
+
+          <div class="tv-show-card">
+            <img src="img/movie9.jpeg" alt="TV Show 3" data-video-id="your-video-id-here">
+            <h3>Sharper</h3>
+            <p>2023 ‧ Drama/Thriller ‧ 1h 56m</p>
+            <p>Rating: 4/5</p> 
+            <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+            <a href="#" class="btns" download>Download <i class="fa-solid fa-download"></i></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="popular">
+        <h2 class="h2"> <a href="Horror1.html">Horror</a> </h2>
+        <div class="tv-show-list">
+          <!-- TV Show Cards -->
+          <div class="tv-show-card">
+            <img src="img/movie10.jpeg" alt="TV Show 1" data-video-id="your-video-id-here">
+            <h3>Winnie the Pooh: Blood and Honey</h3>
+            <p>2023 ‧ Horror/Slasher ‧ 1h 40m
+            </p>
+            <p>Rating: 2/5</p> 
+            <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+            <a href="#" class="btns" download>Download <i class="fa-solid fa-download"></i></a>
+          </div>
+
+          <div class="tv-show-card">
+            <img src="img/movie11.jpeg" alt="TV Show 2" data-video-id="your-video-id-here">
+            <h3>Screm VI</h3>
+            <p>2023 ‧ Horror/Slasher ‧ 2h 2m
+            </p>
+            <p>Rating: 4/5</p> 
+            <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+            <a href="#" class="btns" download>Download <i class="fa-solid fa-download"></i></a>
+          </div>
+
+          <div class="tv-show-card">
+            <img src="img/movie12.jpeg" alt="TV Show 3" data-video-id="your-video-id-here">
+            <h3>Consecration</h3>
+            <p>2023 ‧ Horror ‧ 1h 31m
+            </p>
+            <p>Rating: 3/5</p> 
+            <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+            <a href="#" class="btns" download>Download <i class="fa-solid fa-download"></i></a>
+          </div>
+        </div>
+      </section>
+    </main>
+     <!--==================== SCROLL TOP ====================-->
+     <a href="#" class="scrollup" id="scroll-up">
+      <i class="fa-solid fa-arrow-up scrollup__icon"></i>
+   </a>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-logo">
+        <a href="">NaijaFlix</a>  
+      </div>
+      <p>Follow us on social media:</p>
+      <ul class="social-icons">
+        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+      <p>&copy; 2023 NaijaFlix. All Rights Reserved.</p>
+    </footer>
+     
+      
+    <script src="main.js"></script>
+</body>
+</html> 
